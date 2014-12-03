@@ -1,0 +1,112 @@
+/********************
+*File name: register.css
+*System Name: morfeo
+*Module Name: registration
+*Class Name: none
+*Dependencies: none			
+*Revision: 2014-11-22
+*Author:  
+*e-mail Author: @uabc.edu.mx
+*Copyright Notice: Derechos reservados, UABC 2014
+*********************/
+body{
+    background-image: url('../img/Carbon.png');
+    color:#fff;
+    }
+#reg{
+    background-color: rgba(255, 255, 255, 0.4);
+    font-family:Arial, Helvetica;
+    font-weight:bold;
+    font-size: 14px;
+    width:470px;
+    height: 500px;
+    margin:0 auto;
+    padding-left:50px;
+    padding-top:20px;
+    position: relative;
+    border: solid;
+
+    }
+h{
+    text-align: center;
+    }
+div{
+    width: 600px;
+    }
+.containerRes{
+    border: 0px solid #FFF;
+    width:418px;
+    }
+.terms{
+    width: 418px;
+    height: 150px;
+    margin: 0px;
+    margin-bottom: 10px;
+    border: 2px solid #FFF;
+    overflow: scroll;
+    }
+#divisor{
+    width:416px;
+    height:0px;
+    border: 1px solid #FFF;
+    }
+input.input:focus{
+     border: 2px solid #EE8709; 
+     background-color: rgba(255, 255, 255, 1);
+    }
+input.buttom{ 
+    background: #EE8709; 
+    display: inline-block; 
+    padding: 5px 10px 6px; 
+    color: #ffffff;
+    text-decoration: none; 
+    font-weight: bold; 
+    line-height: 1;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px; 
+    -moz-box-shadow: 0 1px 3px #999;
+    -webkit-box-shadow: 0 1px 3px #999;
+    box-shadow: 0 1px 3px #999; 
+    text-shadow: 0 -1px 1px #222;
+    border: none;
+    position: relative; 
+    cursor: pointer; 
+    font-size: 14px;
+       }
+input.buttom:hover{
+     background-color: #CB740A; 
+     }
+input, textarea { 
+    border: 1px solid rgba(122, 192, 0, 0.15); 
+    padding: 4px;
+    color: #4b4b4b;
+    font-size: 14px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 5px; 
+    margin-top: 5px; 
+    }
+p{
+    font-weight:normal;
+    font-size: 12px;
+    margin-bottom: -5px; 
+    }
+#termsTitle{
+    margin-bottom: -2px; 
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight:bold;
+}
+#Content {
+	position: absolute;
+	width: 922px;
+	height: 580px;
+	z-index: 8;
+	left: 44px;
+	top: 115px;
+	background-color: rgba(0,0,0,0.01);
+	border-style: solid;
+        border-width: 0px;
+	border-color:#000000;
+        margin-bottom: -50px;
+}

@@ -1,0 +1,305 @@
+/********************
+*File name:main.css
+*System Name: morfeo
+*Module Name: 
+*Class Name: none
+*Dependencies: none			
+*Revision: 2014-11-22
+*Author:  
+*e-mail Author: @uabc.edu.mx
+*Copyright Notice: Derechos reservados, UABC 2014
+*********************/
+#Border {
+	position: relative;
+	width: 1024px;
+	height: 788px;
+	z-index: 1;
+	left: 26px;
+	top: 11px;
+	border-style: solid;
+        border-width: 0px;
+	border-color:#000000;
+	margin: 0 auto;
+	
+}
+#Header {
+	position: absolute;
+	width: 921px;
+	height: 67px;
+	z-index: 2;
+	left: 44px;
+	top: 28px;
+	background-color: rgba(0,0,0,0.01);
+	border-style: solid;
+        border-width: 0px;
+	border-color:#000000;
+}
+
+#apDiv1 {
+	position: absolute;
+	width: 154px;
+	height: 39px;
+	z-index: 3;
+	left: 93px;
+	top: 46px;
+}
+.logo {
+	position: absolute;
+	width: 165px;
+	height: 48px;
+	z-index: 2;
+	left: 0px;
+	top: 10px;
+	background-color: #990000;
+
+}
+#Search {
+	position: absolute;
+	width: 200px;
+	height: 48px;
+	z-index: 3;
+	top: 10px;
+	left: 165px;
+        background-color: #999;
+}
+#Login {
+	position: absolute;
+	width: 556px;
+	height: 48px;
+	z-index: 2;
+	left: 365px;
+	top: 10px;
+	background-color: rgba(0,0,0,0.2);
+}
+.button {
+	position: absolute;
+	width: 76px;
+	height: 36px;
+	z-index: 1;
+	top: 8px;
+	left: 396px;
+}
+#Register {
+        margin-top: 3px;
+        margin-left: 65px;
+}
+.gamesContent {
+	position: absolute;
+	width: 523px;
+	height: 267px;
+	z-index: 3;	
+	background-color: #9933FF;
+	background-size: 523px 267px;
+}
+#Carrusel {
+	left: 0px;
+	top: 0px;
+	/**background-image:url("../img/carrusel1.png");**/
+}
+.ads {
+	position: absolute;
+	width: 315px;
+	height: 261px;
+	z-index: 3;
+	left: 631px;
+	top: 126px;
+	background-color: #663300;
+}
+#Anounnce {
+	left: 589px;
+	top: 22px;
+	background-image: url("../img/Anounce.png");
+}
+#Soon {
+	left: 26px;
+	top: 305px;
+	background-image: url("../img/Soon.png");
+	
+}
+#Footer {
+	position: absolute;
+	width: 1024px;
+	height: 62px;
+	z-index: 6;
+        left: 6px;
+	top: 718px;
+	background-color: rgba(0,0,0,0.5);
+	left: 0px;
+	top: 726px;
+	
+}
+#BestSeller {
+	z-index: 7;
+	left: 396px;
+	top: 306px;
+	background-color: #505050 ;
+	font-weight:bold;
+	background-image:url("../img/BestSeller.png");
+	background-repeat: repeat-x;
+}
+#Logo2 {
+	position: absolute;
+	z-index: 1;
+	top: 10px;
+	left: 843px;
+	background-color: #990000;
+}
+#About {
+	left: 29px;
+	top: 10px;
+}
+.opcFoot {
+	position: absolute;
+	width: 165px;
+	height: 47px;
+	z-index: 3;
+	left: 230px;
+	top: 11px;
+	background-color: #787878 ;
+	text-align: center;
+}
+#Contac {
+	left: 425px;
+	top: 11px;	
+}
+#Legal {	
+	left: 610px;
+	top: 11px;	
+}
+#boton {
+	top: 209px;
+	left: 37px;
+}
+#boton2 {
+	left: 199px;
+	top: 200px;	
+}
+#BestCont {
+	position: absolute;
+	width: 519px;
+	height: 239px;
+	z-index: 1;
+	left: 1px;
+	top: 25px;
+	border-style: solid;
+        border-width: 0px;
+	border-color:#000000;
+}
+.games {
+	position: absolute;
+	width: 262px;
+	height: 78px;
+	z-index: 1;
+	background-color: #A8A8A8 ;
+	left:0px;
+	top:7px;
+}
+#Game2 {	
+	left: 0px;
+	top: 83px;	
+	background-color: #707070;
+}
+#Game3 {	
+	left: 0px;
+	top: 161px;
+}
+#Game4 {
+	left: 257px;
+	top: 7px;	
+}
+#Game5 {
+	left: 257px;
+	top: 83px;
+	background-color: #707070;
+}
+#Game6 {
+	left: 257px;
+	top: 161px;
+}
+.gamesImg {
+	position: absolute;
+	width: 103px;
+	height: 78px;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+	background-color: #111311;
+}
+#Img1{
+background-image:url("../img/titan.png");
+background-size: 103px 78px;
+}
+#Img2{
+background-image:url("../img/sims4.png");
+background-size: 103px 78px;
+}
+#Img3{
+background-image:url("../img/crysis3.png");
+background-size: 103px 78px;
+}
+#Img4{
+background-image:url("../img/fifa15.png");
+background-size: 103px 78px;
+}
+#Img5{
+background-image:url("../img/mass.png");
+background-size: 103px 78px;
+}
+#Img6{
+background-image:url("../img/battle4.png");
+background-size: 103px 78px;
+}
+#Content {
+	position: absolute;
+	width: 922px;
+	height: 580px;
+	z-index: 8;
+	left: 44px;
+	top: 115px;
+	background-color: rgba(0,0,0,0.01);
+	border-style: solid;
+        border-width: 0px;
+	border-color:#000000;
+	
+}
+form{
+        float:left;
+        }
+
+body{
+ background-image: url("../img/Carbon.png");
+
+}
+input#username{
+    margin: 5px;
+    }
+
+/* ####################################################################################### */
+button, input.button{ 
+    background: #EE8709; 
+    display: inline-block; 
+    padding: 5px 10px 6px; 
+    color: #ffffff;
+    text-decoration: none; 
+    font-weight: bold; 
+    line-height: 1;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px; 
+    -moz-box-shadow: 0 1px 3px #999;
+    -webkit-box-shadow: 0 1px 3px #999;
+    box-shadow: 0 1px 3px #999; 
+    text-shadow: 0 -1px 1px #222;
+    border: none;
+    position: relative; 
+    cursor: pointer; 
+    font-size: 14px;
+       }
+input.buttom:hover, button:hover{
+     background-color: #CB740A; 
+     }
+
+
+
+
+
